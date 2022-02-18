@@ -1,0 +1,58 @@
+body{
+   
+    margin: 0;
+    
+    background-image: url(nat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #sub
+  {
+      margin-left: 187px;      
+      width: 28%;
+      padding:15px;
+      background-color: lightgreen;
+      color: black;
+      border-radius:10px ;
+  }
+  
+  .smallbox
+  {
+    padding:15px;
+    width: 35%;
+    border:2px solid black;
+    border-radius: 10px;
+  }
+
+  .base
+  {
+    
+    width: 500px;
+    height: auto;
+    padding: 50px;
+    border-radius: 25px;
+    margin: 300px auto;
+    box-shadow: 10px 10px 8px 10px #888888;;
+  }
+
+  input:valid
+  {
+    visibility: visible;
+    color: green;
+    
+    border-color: green;
+  }
+
+  input:invalid
+  {
+    visibility: visible;
+    color: red;
+    border-color: red;
+  }
+
+  label
+  {
+    width: 31%;
+    float:left;
+    padding-top: 15px;
+  }
